@@ -1,0 +1,54 @@
+<!------------ libraries ------------>
+
+<!------------ Custom ------------>
+<link rel="stylesheet" href="./css/main.css" />
+
+<!-- SCRIPTS -->
+
+<!------------ libraries ------------>
+<!-- Input Mask -->
+<!-- <script src="https://unpkg.com/imask"></script> -->
+
+<!------------ Custom ------------>
+<script src="./js/index.bundle.js"></script>
+
+<!-- <script>
+  $(document).ready(function () {
+    function ThisIsWebP() {
+      var def = $.Deferred(),
+        crimg = new Image();
+      crimg.onload = function () {
+        def.resolve();
+      };
+      crimg.onerror = function () {
+        def.reject();
+      };
+      crimg.src = "./img/webp.webp";
+      return def.promise();
+    }
+    ThisIsWebP().then(
+      function () {
+        if ($(window).innerWidth() < 640) {
+          $("body").css({
+            background: "url(./img/main_bg-m.webp) fixed no-repeat",
+          });
+        } else {
+          $("body").css({
+            background: "url(./img/main_bg.webp) fixed no-repeat",
+          });
+        }
+      },
+      function () {
+        if ($(window).innerWidth() < 640) {
+          $("body").css({
+            background: "url(./img/main_bg-m.jpg) fixed no-repeat",
+          });
+        } else {
+          $("body").css({
+            background: "url(./img/main_bg.jpg) fixed no-repeat",
+          });
+        }
+      }
+    );
+  });
+</script> -->
