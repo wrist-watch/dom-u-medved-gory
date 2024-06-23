@@ -1,0 +1,241 @@
+.contact-page {
+  width: 100%;
+  max-width: 750px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.contact-page .go_back-link {
+  color: #fff;
+}
+.contact-page h1 {
+  font-size: 38px;
+  line-height: 1.2;
+  color: #fff;
+  width: 100%;
+  text-align: center;
+  margin: 0 auto 40px;
+  display: block;
+}
+@media screen and (max-height: 768px) {
+  .contact-page h1 {
+    font-size: 34px;
+    line-height: 1.1;
+    margin: 0 auto 25px;
+  }
+}
+@media screen and (max-width: 960px) {
+  .contact-page h1 {
+    font-size: 34px;
+    line-height: 1.1;
+    margin: 0 auto 25px;
+  }
+}
+@media screen and (max-width: 640px) {
+  .contact-page h1 {
+    font-size: 22px;
+    margin: 0 auto 15px;
+    max-width: calc(100% - 30px);
+  }
+}
+@media screen and (max-width: 400px) {
+  .contact-page {
+    padding: 0;
+  }
+  .contact-page h1 {
+    font-size: 18px;
+  }
+}
+.contact-page .contact_form {
+  position: relative;
+  width: 100%;
+  max-width: 650px;
+  display: flex;
+  flex-direction: column;
+  margin: 0 auto;
+  padding: 50px 0;
+  border-radius: 10px;
+  border: 2px solid #000;
+  text-align: center;
+  background-color: rgba(0, 0, 0, 0.25);
+}
+@media screen and (max-height: 768px) {
+  .contact-page .contact_form {
+    padding: 20px 0;
+  }
+}
+@media screen and (max-width: 960px) {
+  .contact-page .contact_form {
+    max-width: 550px;
+    padding: 25px 0;
+  }
+}
+@media screen and (max-width: 640px) {
+  .contact-page .contact_form {
+    max-width: calc(100% - 30px);
+  }
+}
+.contact-page .contact_form .form-group {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  max-width: 400px;
+  margin: 0 auto 25px;
+  position: relative;
+}
+@media screen and (max-height: 768px) {
+  .contact-page .contact_form .form-group {
+    margin: 0 auto 20px;
+  }
+}
+@media screen and (max-width: 370px) {
+  .gallery_main-content .gallery_contacts p {
+    font-size: 15px;
+  }
+  .gallery_main-content .gallery_contacts .gallery_contacts-links a {
+    font-size: 14px;
+    padding: 10px 0;
+  }
+  .contact-page h1 {
+    font-size: 15px;
+    margin: 0 auto 15px;
+  }
+  .contact-page .contact_form {
+    max-width: calc(100% - 20px);
+    padding: 25px 0 15px;
+  }
+  .contact-page .contact_form .form-group {
+    margin: 0 auto 15px;
+  }
+}
+.contact-page .contact_form .form-group label {
+  font-size: 18px;
+  line-height: 1.1;
+  font-weight: 600;
+  text-align: left;
+  margin: 0 auto 6px 0;
+  display: block;
+  color: #fff;
+}
+@media screen and (max-height: 768px) {
+  .contact-page .contact_form .form-group label {
+    font-size: 16px;
+  }
+}
+@media screen and (max-width: 640px) {
+  .contact-page .contact_form .form-group {
+    max-width: calc(100% - 10%);
+  }
+  .contact-page .contact_form .form-group label {
+    font-size: 16px;
+    text-align: center;
+    margin: 0 auto 6px;
+  }
+}
+.contact-page .contact_form .form-group input,
+.contact-page .contact_form .form-group textarea {
+  font-size: 15px;
+  line-height: 1.1;
+  padding: 10px 0 10px 12px;
+  border-radius: 5px;
+  outline: 0;
+  color: #000;
+  transition: 0.4s;
+  display: block;
+  width: 100%;
+  max-width: 400px;
+  box-shadow: inset 0 0 2px 2px transparent;
+  border: 1px solid transparent;
+}
+.contact-page .contact_form .form-group input:focus,
+.contact-page .contact_form .form-group input:hover,
+.contact-page .contact_form .form-group textarea:focus,
+.contact-page .contact_form .form-group textarea:hover {
+  outline: 0;
+}
+@media screen and (max-width: 640px) {
+  .contact-page .contact_form .form-group input,
+  .contact-page .contact_form .form-group textarea {
+    font-size: 15px;
+    text-align: center;
+    padding: 10px;
+  }
+  .contact-page .contact_form .form-group input::-webkit-input-placeholder,
+  .contact-page .contact_form .form-group textarea::-webkit-input-placeholder {
+    text-align: center;
+  }
+  .contact-page .contact_form .form-group input::-moz-placeholder,
+  .contact-page .contact_form .form-group textarea::-moz-placeholder {
+    text-align: center;
+  }
+  .contact-page .contact_form .form-group input:-ms-input-placeholder,
+  .contact-page .contact_form .form-group textarea:-ms-input-placeholder {
+    text-align: center;
+  }
+  .contact-page .contact_form .form-group input::-webkit-input-placeholder,
+  .contact-page .contact_form .form-group textarea::-webkit-input-placeholder {
+    text-align: center;
+  }
+  .contact-page .contact_form .form-group input::-moz-placeholder,
+  .contact-page .contact_form .form-group textarea::-moz-placeholder {
+    text-align: center;
+  }
+  .contact-page .contact_form .form-group input:-ms-input-placeholder,
+  .contact-page .contact_form .form-group textarea:-ms-input-placeholder {
+    text-align: center;
+  }
+  .contact-page .contact_form .form-group input::-ms-input-placeholder,
+  .contact-page .contact_form .form-group textarea::-ms-input-placeholder {
+    text-align: center;
+  }
+  .contact-page .contact_form .form-group input::placeholder,
+  .contact-page .contact_form .form-group textarea::placeholder {
+    text-align: center;
+  }
+}
+.contact-page .contact_form .form-group:last-of-type {
+  display: flex;
+  flex-direction: row-reverse;
+}
+.contact-page .contact_form .form-group:last-of-type label {
+  width: 100%;
+}
+.contact-page .contact_form .form-group:last-of-type input {
+  width: 25px;
+}
+.contact-page .contact_form button {
+  display: block;
+  max-width: 250px;
+  width: 100%;
+  margin: 0 auto;
+  color: #fff;
+  font-size: 20px;
+  line-height: 1.2;
+  font-weight: 700;
+  letter-spacing: 0.05rem;
+  padding: 12px 0;
+  border: 0;
+  text-align: center;
+  outline: 0;
+  transition: 0.3s;
+  cursor: pointer;
+  background: #f60000;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.25), inset 0 -4px 8px rgba(0, 0, 0, 0.25),
+    inset 0 3px 8px rgba(0, 0, 0, 0.16);
+  border-radius: 2px;
+}
+.contact-page .contact_form button:hover {
+  background-color: #c00000;
+  box-shadow: none;
+}
+.contact-page .contact_form button:focus {
+  outline: 0;
+}
+@media screen and (max-width: 1168px) {
+  .contact-page .contact_form button {
+    font-size: 18px;
+    line-height: 1.1;
+  }
+}

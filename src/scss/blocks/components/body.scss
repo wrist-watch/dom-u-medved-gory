@@ -1,0 +1,47 @@
+body {
+  position: relative;
+  font-family: "MabryPro", sans-serif !important;
+  background-size: cover !important;
+  background: url(../img/main_bg-m.jpg) fixed no-repeat;
+
+  @media (min-width: 640px) {
+    background: url(../img/main_bg.jpg) fixed no-repeat;
+  }
+}
+body .privacy-page {
+  background-color: rgba(0, 0, 0, 0.85);
+  padding: 30px 20px;
+}
+body .privacy-page h1 {
+  font-size: 36px;
+  text-align: center;
+  width: 100%;
+  display: block;
+  margin-bottom: 20px;
+  color: #fff;
+}
+@media (max-width: 960px) {
+  body .privacy-page h1 {
+    font-size: 24px;
+  }
+}
+@media (max-width: 640px) {
+  body .privacy-page h1 {
+    font-size: 18px;
+  }
+}
+body .privacy-page p {
+  display: block;
+  color: #fff;
+  margin-bottom: 10px;
+  line-height: 1.4;
+  letter-spacing: 0.03rem;
+}
+@media (max-width: 960px) {
+  body .privacy-page p {
+    font-size: 14px;
+  }
+}
+body .privacy-page a {
+  color: #00f;
+}
